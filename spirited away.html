@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>family flix</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script>
+	function submitFeedback(){
+	alert("Feedback Submitted");
+	}
+	</script>
+
+<body>
+	<header>
+	    	 <nav> <a href="aboutUS.html"><img class="logo" src="logo.png"
+height="100" 
+width="100" 
+alt="“image" 
+></a>
+<ul> <li><a  href="genre.html">Home </a></li> 
+ <li><a href="genre1.html">Fictional </a></li> 
+<li> <a href="genre2.html">Adventures</a></li>
+ <li><a href="genre3.html">Family</a> </li>
+ <li><a href="aboutUS.html">About</a> </li> </ul></nav> 
+
+
+
+		<h1>Spirited Away</h1>
+		<h3>Sen to Chihiro no Kamikakushi</h3>
+		<h2>千と千尋の神隠し</h2>
+	</header>
+	<iframe width="800" height="450" src="https://www.youtube.com/embed/ByXuk9QqQkk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="movie-summary">
+	<div class="movie-summary-header">Movie Synopsis</div>
+
+		<p>Chihiro and her parents are moving to a small Japanese town in the countryside, much to Chihiro's dismay. 
+		On the way to their new home, Chihiro's father makes a wrong turn and drives down a lonely one-lane road which dead-ends in front of a tunnel. 
+		Her parents decide to stop the car and explore the area. They go through the tunnel and find an abandoned amusement park on the other side, 
+		with its own little town. When her parents see a restaurant with great-smelling food but no staff, they decide to eat and pay later. 
+		However, Chihiro refuses to eat and decides to explore the theme park a bit more. 
+		She meets a boy named Haku who tells her that Chihiro and her parents are in danger, and they must leave immediately. 
+		She runs to the restaurant and finds that her parents have turned into pigs. In addition, the theme park turns out to be a town inhabited by demons, spirits, and evil gods. 
+		At the center of the town is a bathhouse where these creatures go to relax. 
+		The owner of the bathhouse is the evil witch Yubaba, who is intent on keeping all trespassers as captive workers, including Chihiro. 
+		Chihiro must rely on Haku to save her parents in hopes of returning to their world.</p>
+		<img src="movie pic.jpg" alt="Scene from the movie">
+	</div>
+	<table>
+	<thead>
+			<tr>
+				<th>Character</th>
+				<th>Voice Actor</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Chihiro Ogino</td>
+				<td>Rumi Hiiragi</td>
+			</tr>
+			<tr>
+				<td>Haku</td>
+				<td>Miyu Irino</td>
+			</tr>
+			<tr>
+				<td>Yubaba, Zeniba</td>
+				<td>Mari Natsuki</td>
+			</tr>
+			<!-- Add more rows as needed -->
+		</tbody>
+	</table>
+	<a href="https://www.imdb.com/title/tt0245429/?ref_=ttpl_ov_i" target="_blank" class="watch-link">Watch Movie</a>
+	<div class="rating-form">
+		<form onsubmit="submitFeedback()">
+		<div class="movie-summary-header">Rate The Movie</div>	
+			
+				<h4>Name:</h4>
+				<input type="text" name="name">
+			
+			<div class="comment-form">
+				<h4>Feedback:</h4>
+				<textarea id="comment" name="comment"></textarea>
+			</div>
+			<div class="rating">
+    <input type="radio" id="star5" name="rating" value="5">
+    <label for="star5"></label>
+    <input type="radio" id="star4" name="rating" value="4">
+    <label for="star4"></label>
+    <input type="radio" id="star3" name="rating" value="3">
+    <label for="star3"></label>
+    <input type="radio" id="star2" name="rating" value="2">
+    <label for="star2"></label>
+    <input type="radio" id="star1" name="rating" value="1">
+    <label for="star1"></label>
+  </div>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>

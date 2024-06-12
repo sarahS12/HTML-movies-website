@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<meta charset="utf-8">
+	
+	<title>family flix</title>
+	<link rel="stylesheet" type="text/css" href="projectstyle.css">
+
+</head>
+
+<body class="h1main">
+
+
+	 <nav> <a href="aboutUS.html"><img class="logo" src="logo.png"
+height="100" 
+width="100" 
+alt="“image" 
+></a>
+	  <ul> <li><a  href="genre.html">Home </a></li>   <li><a href="genre1.html">Fictional </a></li> 
+<li> <a href="genre2.html">Adventures</a></li>
+ <li><a href="genre3.html">Family</a> </li>
+ <li><a href="aboutUS.html">About</a> </li> </ul></nav> 
+
+<p class="sumtitle"> Kiki's Delivery Service</p>
+
+<!--Movie Synopsis  -->
+
+
+
+<img class="post1" src="p8.jpg"
+alt="“image" 
+>
+
+<p class="summary">
+Kiki’s Delivery Service is another popular Studio Ghibli Film about a 13-year-old witch who moves to a seaside town with her cat, Jiji. Completely alone in a new place (as per a witch tradition) for a year, she tries to master flying on a broom by setting up a delivery service with the lady who runs the bakery she’s staying in. As she delivers packages she makes new friends, including an artist who lives alone in the woods names Ursula and and old lady named Madame who makes Kiki a cake for her birthday. During her journey, her insecurity gets the best of her and she loses her ability to properly do magic, and has to over come her insecurities to regain her powers back.
+</p>
+<div class="divinfo">
+<table class="info">
+	<tr>
+		<th>Length:</th>
+		<td>1h 48m</td>
+	</tr>
+	<tr>
+		<th>Aired:</th>
+		<td>1989</td>
+	</tr>
+	<tr> 
+		<th>Genres:</th>
+			<td> adventure -family</td>
+	</tr>
+	<tr>
+		<th>Rating:</th>
+		<td>G-All Ages</td>
+	</tr>
+</table>
+
+</div>
+<p class ="RPhotostext"> Related Photo</p>
+<hr style="border-top: 2px solid gray ;   margin-right: 10em; margin-left: 5em;"   class="line">
+
+<p>
+	
+	
+<table style="margin-left: 5em;">
+  <tr>
+    <th><img class="relatephoto" src="p6.JPG"
+height="200" 
+width="200" 
+alt="“image" 
+></th>
+    <th><img class="relatephoto"  src="p9.JPG"
+height="200" 
+width="200" 
+alt="“image"> 
+</th>
+    <th><img class="relatephoto"  src="p10.JPG"
+height="200" 
+width="200" 
+alt="“image">
+ </th>
+<th><img class="relatephoto" src="p12.JPG"
+height="200" 
+width="200" 
+alt="“image">
+  </th>
+</tr>
+ 
+<!--
+<tr >
+	<td>go 1</td>
+		<td>go 2</td>
+			<td>go 3</td>-->
+
+</table>
+</p>
+<!--VIDEO-->
+<p class ="RPhotostext" > Movie Trailer</p>
+<hr style="border-top: 2px solid gray ;   margin-right: 10em; margin-left: 5em;  margin-bottom: 1.5em;"   class="line">
+<!--<video class="vidmovie" src="C:\Users\hanou\Desktop\internetapplicationproject\kikisvideo.mp4" controls ></video>-->
+<iframe class="vidmovie" width="420" height="315"
+src="https://www.youtube.com/embed/CJRJveWPPRU">
+</iframe>
+
+
+<!--FORM-->
+
+<p class ="RPhotostext" > Feadback</p>
+<hr style="border-top: 2px solid gray ;   margin-right: 10em; margin-left: 5em;  margin-bottom: 1.5em;"   class="line">
+<div class="formdiv">
+<form  id="usrform" onsubmit="msg()"  >
+ <p style="margin-left: 5em;  color: white;"> 
+  Name: <input type="text"  class="textin"  name="usrname" required></p>
+
+  <p><textarea style="margin-left:5.8em; font-family: Times New Roman; " rows="7" cols="30" class="comment" name="comment"  placeholder="leave comment"></textarea></p>
+
+   
+<h3  class="reat">reating</h3>
+<div class="rating">
+
+  <input type="radio" id="star5" name="rating" value="5">
+  <label for="star5"></label>
+  <input type="radio" id="star4" name="rating" value="4">
+  <label for="star4"></label>
+  <input type="radio" id="star3" name="rating" value="3">
+  <label for="star3"></label>
+  <input type="radio" id="star2" name="rating" value="2">
+  <label for="star2"></label>
+  <input type="radio" id="star1" name="rating" value="1">
+  <label for="star1"></label>
+</div>
+  <div><input id="sub" type="submit" value="submit"  onmouseover="ch()" onmouseout="ch2()"></div>
+<script type="text/javascript">
+function msg(){
+	alert("submitted succsessfuly");
+}
+function ch(){
+	document.getElementById("sub").style.background = '#FFFFFF';
+}
+		
+function ch2(){
+	    document.getElementById("sub").style.backgroundImage= 'linear-gradient(to right, #000000, #FFFFFF)';
+}
+	
+
+</script>
+</form>
+<br>
+</div>
+</body>
+</html>
