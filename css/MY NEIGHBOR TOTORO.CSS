@@ -1,0 +1,244 @@
+body{
+	background-color:rgb(173, 216, 247);
+	background-size:cover;
+	background-repeat: no-repeat;
+	display: block;
+	background-position: center;
+background-image: url(mynibackground.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+}
+ul{
+      margin-top:1em;
+	display: flex;
+	justify-content: center;
+align-items: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+	margin-right:1em ;
+}
+a:hover{
+	color: #53C7E4;
+}
+ul li{
+
+margin-right: 8px;
+	list-style: none ;
+	
+}
+	{
+	display: flow;
+	justify-content: center;
+	align-items: center;
+	min-height: 50vh;
+	font-size: 0.5;}
+	{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Poopins',sans-serif;
+		font-size: 2em;
+	}
+	h1{text-align: center;
+		font-size: 2em;
+			position: relative;
+			font-size: 14ww;
+			color: rgb(169, 214, 180);
+			-wedkit-text-stroke:0.3vw #000000;
+			text-transform: uppercase;
+			color: rgb(36, 106, 156);
+	}
+	h1::before{
+		text-align: center;
+		font-size: 2em;
+		content: attr(data-text);
+		position:absolute;
+		top: 0;
+		left:0;
+		width:0;
+		height:100%;
+		color: #000000;
+		-wedkit-text-stroke:0vw #000000;
+		border-right: 2px solid color: #000000;
+		overflow: hidden;
+		animation: animate 6s linear infinite;
+	}
+	h2{text-align: center;
+		font-size: 1em;
+			position: relative;
+			font-size: 14ww;
+			color: rgb(169, 214, 180);
+			-wedkit-text-stroke:0.3vw #000000;
+			text-transform: uppercase;
+			color: rgb(36, 106, 156);
+	}
+	h2::before{
+		text-align: center;
+		font-size: 1em;
+		content: attr(data-text);
+		position:absolute;
+		top: 0;
+		left:0;
+		width:0;
+		height:100%;
+		color: #000000;
+		-wedkit-text-stroke:0vw #000000;
+		border-right: 2px solid color: #000000;
+		overflow: hidden;
+		animation: animate 6s linear infinite;
+	}
+	@keyframes animate{
+0%,10%,100%{
+	width: 0;
+}
+70%,90%{
+	width: 100%;
+}
+	}
+
+
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+
+table{
+	padding: 30px 0px 10px;
+}
+td{
+	padding: 2px 65px 2px;
+	text-align: center;
+	font-size:15px;
+	font-family: Comic Sans MS;
+}
+.c2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+.c2 p {
+	line-height: 2.5;
+	flex-basis: 60%;
+	text-align: left;
+	color: rgba(000,000,000);
+	font-weight: 100;
+	font-size: 15px;
+	font-family: Comic Sans MS, monospace;
+}
+
+.c2 img {
+			max-width: 300px;
+			width: 100%;
+			flex-basis: 30%;
+		}
+		
+.c3 {
+			flex-basis: 100%;
+			text-align: center;
+			color: black;
+			font-weight: 200;
+			font-size: 20px;
+			margin-bottom: 20px;
+			font-family: Serif;
+			background-color: rgba(139, 174, 199,0.5);
+		}
+a{
+	background-color: rgba(139, 174, 199,0.5);
+	text-decoration: none;
+	color: black;
+	margin-right:3em ;
+	font-family: Comic Sans MS, monospace;
+	align-items: center;
+
+}
+a:hover{
+	color:blue;
+}
+
+form {
+      max-width: 400px;
+      margin: 20px auto;
+
+    }
+    
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+    
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    .watch-button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .watch-button:hover {
+      background-color: #45a049;
+    }
+
+    .rating {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px; 
+  padding-bottom: 40px;
+}
+.ttitle {
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+    .rating > input {
+      display: none;
+    }
+
+    .rating > label {
+      font-size: 30px;
+      color: #fff;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .rating > label:before {
+      content: '\2605'; /* Star symbol */
+    }
+
+    .rating > input:checked ~ label,
+    .rating > input:checked ~ label:before {
+      color: gold;}

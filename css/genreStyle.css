@@ -1,0 +1,89 @@
+body {
+			background-image: url("studio.jpg");
+			background-color: rgba(0,0,0,0.5); /* black with 50% transparency */
+			background-blend-mode: multiply;
+			background-size: cover;
+			background-repeat: no-repeat;
+			font-family: Arial, sans-serif;
+		}
+		
+		
+		nav{
+	
+/*background-image:url(p5.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;*/
+background-color: rgba(0, 0, 0, 0.5);
+/*
+background: transparent;
+backdrop-filter: blur(20px);*/
+/*background-color: rgba(46, 186, 135, 0.5);*/
+/*background-color: rgba(111, 33, 139, 0.5);*/
+
+padding: 1.5px 3px 1.5em;
+}
+ul{
+
+	/*background-color: #C5D8A8;*/
+      margin-top: 3em;
+	display: flex;
+	justify-content: center;
+align-items: center;
+
+
+
+
+}
+a{
+	text-decoration: none;
+	color: white;
+	margin-right:3em ;
+}
+a:hover{
+	color: #53C7E4;
+}
+ul li{
+
+margin-right: 8px;
+	list-style: none ;
+	
+
+}
+
+
+img.logo{
+	float: left;
+margin-left: 2em;
+display: flex;
+
+}
+
+		
+		h1 {
+			color: white;
+			text-align: center;
+			font-family: Serif;
+			font-size: 40px;
+
+		}
+		h2 {
+			color: white;
+			font-family: Serif;
+			font-size: 20px;
+
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.item {
+			margin: 20px;
+			text-align: center;
+			flex: 1 1 300px;
+			max-width: 300px;
+		}
+		.item img {
+			max-width: 100%;
+			height: auto;
+		}
